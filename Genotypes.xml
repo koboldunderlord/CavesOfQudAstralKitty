@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<genotypes>
+  <genotype Name="KittyAstral" MutationPoints="0" StatPoints="30" AllowedMutationCategories="*" RandomWeight="20" DisplayName="Astral Kitty" Subtypes="KittyAstral" Class="" Code="ak" Reputation="Cats:400" Tile="creatures/sw_kitty.bmp" BodyObject="BodyAstralKitty" BaseHPGain="1-4" BaseSPGain="30" BaseMPGain="1">
+    <part Name="Body" Builder="KittyAstral" />
+    <inventoryobject Blueprint="Kitty_Astral_Claw" Number="0"></inventoryobject>
+    <inventoryobject Blueprint="Astral_Kitty_Bite" Number="0"></inventoryobject>
+    <stat Name="Strength" Minimum="8" Maximum="24"></stat>
+    <stat Name="Agility" Minimum="12" Maximum="24"></stat>
+    <stat Name="Toughness" Minimum="8" Maximum="24"></stat>
+    <stat Name="Intelligence" Minimum="7" Maximum="24"></stat>
+    <stat Name="Willpower" Minimum="7" Maximum="24"></stat>
+    <stat Name="Ego" Minimum="7" Maximum="24"></stat>
+    <part Name="Body" Builder="BodyKittyAstral" />
+    <skills>
+      <skill Name="Tactics_Run"></skill>
+    </skills>
+    <chargeninfo>
+   &amp;c&#249;&amp;y A cute baby astral tabby
+   &amp;c&#249;&amp;y Starts with no mutations
+   &amp;c&#249;&amp;y Has astral claws and a bite</chargeninfo>
+  </genotype>
+</genotypes>

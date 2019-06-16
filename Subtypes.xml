@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<subtypes>
+  <class ID="KittyAstral" ChargenTitle="Become as cat..." SingularTitle="astral kitty">
+    <subtype 
+      Name="Astral Kitty" 
+      Code="ak" 
+      Gear="StartingGear_None"
+      DetailColor="M"
+      BodyObject="KittyAstral"
+    >
+      <chargeninfo>   &amp;c&#249;&amp;y You're a kitty!
+      </chargeninfo>
+    </subtype>
+  </class>
+</subtypes>
