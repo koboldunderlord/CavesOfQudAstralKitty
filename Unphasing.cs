@@ -18,6 +18,8 @@ namespace XRL.World.Parts.Mutation
 
         public override void Register(GameObject Object)
         {
+            Object.RegisterPartEvent((IPart)this, "BeginTakeAction");
+            Object.RegisterPartEvent((IPart)this, "EnteredCespinll");
             Object.RegisterPartEvent((IPart)this, "CommandUnphase");
             Object.RegisterPartEvent((IPart)this, "AIGetOffensiveMutationList");
             base.Register(Object);
