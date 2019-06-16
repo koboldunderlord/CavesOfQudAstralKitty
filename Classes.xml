@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<genotypes>
+  <genotype ID="KittyAstral" MutationPoints="0" AllowedMutations="*" DisplayName="Astral Kitty" BodyTypes="KittyAstral" Kits="Astral Kitty" Class="" Code="ak">
+    <startingstat Name="Strength" Minumum="8" Maximum="24"></startingstat>
+    <startingstat Name="Agility" Minumum="12" Maximum="24"></startingstat>
+    <startingstat Name="Toughness" Minumum="8" Maximum="24"></startingstat>
+    <startingstat Name="Intelligence" Minumum="7" Maximum="24"></startingstat>
+    <startingstat Name="Willpower" Minumum="7" Maximum="24"></startingstat>
+    <startingstat Name="Ego" Minumum="7" Maximum="24"></startingstat>
+    <chargendisplay></chargendisplay>
+  </genotype>
+</genotypes>
