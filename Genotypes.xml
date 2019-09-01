@@ -2,7 +2,7 @@
 <genotypes>
   <genotype Name="KittyAstral" MutationPoints="0" StatPoints="30" AllowedMutationCategories="*" RandomWeight="20" DisplayName="Astral Kitty" Subtypes="KittyAstral" Class="" Code="ak" Tile="creatures/sw_kitty.bmp" BodyObject="KittyAstral" BaseHPGain="1-4" BaseSPGain="30" BaseMPGain="1">
     <reputations>
-      <reputation With="Cats">400</reputation>
+      <reputation With="Cats" Value="400"></reputation>
     </reputations>
     <part Name="Body" Builder="KittyAstral" />
     <inventoryobject Blueprint="Kitty_Astral_Claw" Number="0"></inventoryobject>
