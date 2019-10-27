@@ -7,7 +7,6 @@
         Code="ak" 
         Gear="StartingGear_None"
         DetailColor="M"
-        BodyObject="KittyAstral"
       >
       
         <chargeninfo>   

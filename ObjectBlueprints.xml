@@ -21,9 +21,9 @@
     <tag Name="NeverStack" />
   </object>
   <object Name="KittyAstral" Inherits="BaseCat">
+    <part Name="Body" Anatomy="AnatomyAstralKitty" />
     <mutation Name="Unphasing" Level="1"></mutation>
     <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
-    <part Name="Body" Builder="BodyKittyAstral" />
     <part Name="Render" DisplayName="astral kitty" Tile="creatures/sw_kitty.bmp" RenderString="c" ColorString="&amp;y" DetailColor="K" />
     <part Name="Description" Short="=pronouns.Subjective= =verb:flicker:afterpronoun= behind =pronouns.possessive= marble coat, curiously checking every facet of this dimension while pouncing around =pronouns.possessive= own chimeric world.  =pronouns.Subjective= =verb:move:afterpronoun= towards your legs as if to stretch against you and purrs as =pronouns.subjective= instead =verb:phase:afterpronoun= through your ankles."></part>
     <part Name="Brain" Hostile="false" Factions="Cats-100"></part>
@@ -31,18 +31,18 @@
     <part Name="Swarmer"></part>
     <part Name="Pettable" />
     <tag Name="PetResponse" Value="purrs vibrantly" />
-    <property Name="HeroNameTitleWiseDescriptor" Value="Sleek,Sphinx,Sphinx-like,Cunning,Graceful,Lithe,Wise,Sage,Sophic" />
-    <property Name="HeroNameTitleMayorSyn" Value="sphinx,mayor,elder" />
-    <property Name="HeroNameTitleMayorSynCap" Value="Sphinx,Mayor,Elder" />
     <tag Name="BaseObject" Value="*noinherit" />
     <part Name="SmartuseForceTwiddles" />
-    <xtagTextFragments YounglingNoise="*mew*,*prrrup*" Activity="sleeping and chasing birds all through the day" VillageActivity="sleeping in our homes" SacredThing="judgemental silence" />
   </object>
 
   <object Name="KittyAstralNPC" Inherits="KittyAstral">
-    <part Name="Body" Builder="BodyQuadruped" />
+    <part Name="Body" Anatomy="Quadruped" />
     <inventoryobject Blueprint="Kitty_Astral_Claw" Number="2"></inventoryobject>
     <inventoryobject Blueprint="Kitty_Astral_Bite" Number="1"></inventoryobject>
+    <property Name="HeroNameTitleWiseDescriptor" Value="Sleek,Sphinx,Sphinx-like,Cunning,Graceful,Lithe,Wise,Sage,Sophic" />
+    <property Name="HeroNameTitleMayorSyn" Value="sphinx,mayor,elder" />
+    <property Name="HeroNameTitleMayorSynCap" Value="Sphinx,Mayor,Elder" />
+    <xtagTextFragments YounglingNoise="*mew*,*prrrup*" Activity="sleeping and chasing birds all through the day" VillageActivity="sleeping in our homes" SacredThing="judgemental silence" />
   </object>
 
   <object Name="Barnabus" Inherits="KittyAstralNPC">
