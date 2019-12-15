@@ -69,7 +69,13 @@ namespace XRL.World.Parts.Mutation
             ActivatedAbilities part = GO.GetPart("ActivatedAbilities") as ActivatedAbilities;
             if (part != null)
             {
-                this.UnphaseActivatedAbilityID = part.AddAbility("Unphase", "CommandUnphase", "Physical Mutation", true, false);
+                this.UnphaseActivatedAbilityID = part.AddAbility(
+                    Name: "Unphase", 
+                    Command: "CommandUnphase", 
+                    Class: "Physical Mutation", 
+                    Description: "Peer behind the curtain from the other side.",
+                    IsRealityDistortionBased: true
+                );
                 this.UnphaseActivatedAbility = part.AbilityByGuid[this.UnphaseActivatedAbilityID];
             }
             this.ChangeLevel(Level);
