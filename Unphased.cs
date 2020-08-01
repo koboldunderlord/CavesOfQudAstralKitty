@@ -5,12 +5,11 @@ using XRL.Language;
 using XRL.Rules;
 using XRL.World.Capabilities;
 
-namespace XRL.World.Parts.Effects
+namespace XRL.World.Effects
 {
     [Serializable]
     public class Unphased : Effect
     {
-        private static System.Type EffectUnphased = ModManager.ResolveType(typeof(Unphased).FullName);
         public string RenderString = "a";
         public string Tile;
 
@@ -46,6 +45,7 @@ namespace XRL.World.Parts.Effects
         public override void Remove(GameObject Object)
         {
             Object.ApplyEffect((Effect)new Phased(9999));
+            base.Remove(Object);
         }
 
         public override void Register(GameObject Object)
@@ -59,6 +59,7 @@ namespace XRL.World.Parts.Effects
         public override void Unregister(GameObject Object)
         {
             Object.UnregisterEffectEvent((Effect)this, "EndTurn");
+            base.Unregister(Object);
         }
 
         public override bool Render(RenderEvent E)

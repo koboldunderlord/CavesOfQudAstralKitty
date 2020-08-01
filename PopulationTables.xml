@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<populations>
+
+  <population Name="AstralKitty_StartingGear">
+	<object Blueprint="HalfFullWaterskin" Number="1"></object>
+    <object Blueprint="HalfFullCanteen" Number="1"></object>
+    <object Blueprint="Goat Jerky" Number="8-10"></object>
+  </population>
+
+</populations>

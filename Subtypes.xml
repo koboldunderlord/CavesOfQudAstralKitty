@@ -5,7 +5,7 @@
       <subtype 
         Name="Astral Kitty" 
         Code="ak" 
-        Gear="StartingGear_None"
+        Gear="AstralKitty_StartingGear"
         DetailColor="M"
       >
       

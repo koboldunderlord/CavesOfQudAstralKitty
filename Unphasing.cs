@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using XRL.World.AI.GoalHandlers;
-using XRL.World.Parts.Effects;
+using XRL.World.Effects;
 
 namespace XRL.World.Parts.Mutation
 {

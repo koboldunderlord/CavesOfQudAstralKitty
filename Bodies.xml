@@ -9,7 +9,7 @@
   <anatomies>
     <anatomy Name="AnatomyAstralKitty">
       <part Type="Head">
-      <part Type="Astral Kitty Jaw" />
+        <part Type="Astral Kitty Jaw" />
       </part>
       <part Type="Back" />
       <part Type="Astral Kitty Foot" Laterality="Right Fore" SupportsDependent="Forefeet" />
